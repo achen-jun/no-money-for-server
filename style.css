@@ -1,0 +1,46 @@
+/* 网站背景 */
+* {
+    background-color: antiquewhite;
+}
+/* 头部栏 */
+header {
+    height: 80px;
+    width: 100%;
+}
+header a {
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header strong {
+    position: absolute;
+    left: 5vw;
+    top: 0;
+    line-height: 60px;
+}
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 35px;
+}
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+header hr {
+    border-color: rgba(0, 0, 0, 0.504);
+    margin-top: 60px;
+}
+/*  */
+main {
+    text-align:center;
+}
+footer {
+    text-align:center;
+}
+footer hr {
+    border-color: rgba(0, 0, 0, 0.504);
+    margin-top: 60px;
+}
